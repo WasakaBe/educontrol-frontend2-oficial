@@ -1,0 +1,61 @@
+.section-container-deportes{
+  width: 100%;
+  height:100%;
+}
+
+.carrusel-container {
+ position: relative;
+ width: 100%;
+ max-width: 100%;
+ height: 80vh;
+ margin: 0 auto;
+ overflow: hidden;
+}
+
+.carrusel-image {
+ width: 100%;
+ height: 100%;
+}
+
+.prev-button,
+.next-button {
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ font-size: 16px;
+ background-color: var(--fondoNavbar); /* Cambia el color de fondo según tus preferencias */
+ color: #fff; /* Cambia el color del texto según tus preferencias */
+ border: none;
+ padding: 10px;
+ cursor: pointer;
+ outline: none;
+}
+
+.prev-button {
+ left: 10px;
+}
+
+.next-button {
+ right: 10px;
+}
+
+@media (max-width: 910px) {
+ .carrusel-container {
+   height: 50vh; /* Puedes ajustar la altura según tus necesidades en pantallas más pequeñas */
+ }
+
+ .prev-button,
+ .next-button {
+   font-size: 14px; /* Ajusta el tamaño del texto de los botones para pantallas más pequeñas */
+ }
+}
+
+.subcontainer-deportes{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.subcontainer-deportes img{
+ width: 100px;
+ height: 100px;
+}

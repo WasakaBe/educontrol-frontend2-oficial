@@ -1,0 +1,183 @@
+.container-dashboard-alumno{
+ width: 100%;
+ padding: 10px;
+}
+.container-dashboard-alumno h2{
+font-size: 25px;
+}
+.container-dashboard-alumno h3{
+ font-size: 15px;
+}
+.subcontainer-welcome-alumno{
+ width: 100%;
+ background-color: rgba(39, 192, 19, 0.608);
+ margin-top: 60px;
+ padding:30px;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 20px;
+}
+.subcontainer-welcome-alumno h2{
+ font-size: 22px;
+}
+.subcontainer-welcome-alumno span{
+ font-size: 22px;
+ color: rgb(8, 48, 19);
+}
+.subcontainer-welcome-alumno p{
+ font-size: 19px;
+}
+.subcontainer-welcome-alumno img{
+ width: 400px;
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+
+/* Estilos responsivos para pantallas con un ancho de 920px o más */
+@media screen and (max-width: 950px) {
+ .container-dashboard-alumno {
+   width: 80%;
+   padding: 10px;
+ }
+
+ .container-dashboard-alumno h2 {
+   font-size: 30px;
+ }
+
+ .subcontainer-welcome-alumno {
+   width: 100%;
+  
+   padding: 20px;
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .subcontainer-welcome-alumno img {
+   width: 400px;
+ }
+}
+
+/* Estilos responsivos para pantallas con un ancho de 800px o más */
+@media screen and (max-width: 820px) {
+ .container-dashboard-alumno {
+   padding: 5px;
+ }
+
+
+ .subcontainer-welcome-alumno {
+   width: 100%;
+   padding: 20px;
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .subcontainer-welcome-alumno img {
+   width: 390px;
+ }
+}
+/* Estilos responsivos para pantallas con un ancho de 660px o más */
+@media screen and (max-width: 700px) {
+ .container-dashboard-alumno {
+   padding: 5px;
+ }
+
+ .container-dashboard-alumno h2 {
+   font-size: 22px;
+ }
+
+ .container-dashboard-alumno h3 {
+   font-size: 13px;
+ }
+
+ .subcontainer-welcome-alumno {
+   margin-top: 40px;
+   padding: 10px;
+ }
+
+ .subcontainer-welcome-alumno h2 {
+   font-size: 18px;
+   width: 100%;
+ }
+
+ .subcontainer-welcome-alumno span {
+   font-size: 18px;
+ }
+
+ .subcontainer-welcome-alumno p {
+   font-size: 16px;
+ }
+
+ .subcontainer-welcome-alumno img {
+  width: 270px;
+ }
+}
+
+/* Estilos responsivos para pantallas con un ancho de 660px o más */
+@media screen and (max-width: 560px) {
+ .subcontainer-welcome-alumno h2 {
+  font-size: 20px;
+  width: 90%
+}
+.subcontainer-welcome-alumno p {
+ width: 90%;
+}
+ .subcontainer-welcome-alumno img {
+  width: 360px;
+  left: 40%;
+ }
+}
+
+@media screen and (max-width: 530px) {
+ .subcontainer-welcome-alumno h2 {
+  font-size: 20px;
+  width: 100%
+}
+.subcontainer-welcome-alumno p {
+ width: 90%;
+}
+.subcontainer-welcome-alumno span {
+ font-size: 15px;
+}
+.container-dashboard-alumno h3 {
+ font-size: 15px;
+ width: 70%;
+}
+.subcontainer-welcome-alumno img {
+ width: 350px;
+ right: 0;
+}
+}
+
+@media screen and (max-width: 500px) {
+ .subcontainer-welcome-alumno h2 {
+  font-size: 15px;
+  width: 80%
+}
+.subcontainer-welcome-alumno p {
+ font-size: 13px;
+ width: 100%
+}
+.subcontainer-welcome-alumno img {
+ width: 330px;
+}
+}
+
+@media screen and (max-width: 460px) {
+ .subcontainer-welcome-alumno h2 {
+  font-size: 15px;
+  width: 40%
+}
+.subcontainer-welcome-alumno p {
+ font-size: 13px;
+ width: 50%
+}
+.container-dashboard-alumno h3 {
+ font-size: 12px;
+}
+.subcontainer-welcome-alumno img {
+ width: 340px;
+}
+}

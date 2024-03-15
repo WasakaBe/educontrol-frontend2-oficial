@@ -1,0 +1,22 @@
+.container_Text_Actv{
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  margin-top: 30px;
+}
+.container_Text_Actv h3{
+  font-size: 4em;
+}
+
+@media screen and (max-width:900px) {
+  .container_Text_Actv{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .container_Text_Actv h3{
+    font-size: 2.3em;
+  }
+}

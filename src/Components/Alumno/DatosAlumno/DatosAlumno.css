@@ -1,0 +1,21 @@
+.container-dates-alumns{
+ width: 100%;
+ padding: 20px;
+}
+.container-dates-alumns h1{
+ text-align: center;
+ font-size: 2em;
+}
+.container-dates-alumns span{
+ text-align: center;
+ font-size: 1.4em;
+ justify-content: center;
+ display: flex;
+}
+.formulario-datos form{
+ display: flex;
+ flex-direction: column;
+ border:2px solid green;
+ padding: 10px;
+ flex: 2;
+}
